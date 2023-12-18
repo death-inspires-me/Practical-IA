@@ -20,7 +20,7 @@ router.post('/register', async (req, res) => {
 
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Internal server error' });
+    res.status(500).json({ message: 'Internal Server Error' });
   }
 });
 
